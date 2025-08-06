@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 from PIL import Image
-import numpy as np
 from ultralytics import YOLO
 import tempfile
 import cv2
@@ -199,6 +198,7 @@ elif option == "Image & Video Detection":
 
         os.remove(video_path)
         os.remove(output_path)
+
 
 
 
